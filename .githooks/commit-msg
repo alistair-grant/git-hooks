@@ -1,0 +1,3 @@
+#!/bin/sh
+MESSAGE_FILE=$1
+pwsh .githooks/commit-msg.ps1 "$MESSAGE_FILE"
